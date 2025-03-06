@@ -13,6 +13,6 @@ A React-based web application that leverages OpenAI's API to provide health-rela
 
 ## Tech Stack
 - **Frontend**: React.js
-- **AI Integration**: OpenAI API (GPT-3.5/4)
+- **AI Integration**: OpenAI API (GPT-4o-mini)
 - **Styling**: CSS3
 - **Package Manager**: npm
