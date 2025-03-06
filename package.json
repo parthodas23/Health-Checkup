@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://parthodas23.github.io/Health-Checkup", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build" 
   },
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
@@ -28,6 +31,7 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "tailwindcss": "^4.0.9",
-    "vite": "^6.2.0"
+    "vite": "^6.2.0",
+    "gh-pages": "^3.2.3"
   }
 }

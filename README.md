@@ -1,12 +1,18 @@
-# React + Vite
+# Health Prediction App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that leverages OpenAI's API to provide health-related predictions and recommendations based on user inputs.
 
-Currently, two official plugins are available:
+![App Screenshot](./public/Screenshot%202025-03-06%20115202.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- User input form for age, health category, problem description, and medication.
+- Integration with OpenAI API for generating health insights.
+- Real-time analysis of medication effects (if enabled).
+- Display of prediction results with confidence scores and risk levels.
+- Responsive UI with clear error handling.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **Frontend**: React.js
+- **AI Integration**: OpenAI API (GPT-3.5/4)
+- **Styling**: CSS3
+- **Package Manager**: npm
